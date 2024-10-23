@@ -1,2 +1,0 @@
-Invoking command in '/home/agnella/banyu/tugas1/build/pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/agnella/banyu/tugas1/src/pubsub -DCMAKE_INSTALL_PREFIX=/home/agnella/banyu/tugas1/install/pubsub
-Invoked command in '/home/agnella/banyu/tugas1/build/pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/agnella/banyu/tugas1/src/pubsub -DCMAKE_INSTALL_PREFIX=/home/agnella/banyu/tugas1/install/pubsub
