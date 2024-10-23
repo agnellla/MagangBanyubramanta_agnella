@@ -1,0 +1,2 @@
+Invoking command in '/home/agnella/banyu/tugas1/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agnella/banyu/tugas1/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/agnella/banyu/tugas1/install/interfaces
+Invoked command in '/home/agnella/banyu/tugas1/build/interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agnella/banyu/tugas1/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/agnella/banyu/tugas1/install/interfaces

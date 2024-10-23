@@ -1,0 +1,451 @@
+[0.000000] (-) TimerEvent: {}
+[0.001025] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001191] (pubsub) JobQueued: {'identifier': 'pubsub', 'dependencies': OrderedDict()}
+[0.001222] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.005287] (pubsub) JobStarted: {'identifier': 'pubsub'}
+[0.011176] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.013807] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.013918] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agnella/banyu/tugas1/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/agnella/banyu/tugas1/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agnella'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agnella/banyu/tugas1/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/agnella'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/agnella/banyu/tugas1/src'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1347'), ('SYSTEMD_EXEC_PID', '1458'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1914'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/agnella/banyu/tugas1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agnella'), ('JOURNAL_STREAM', '8:27057'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agnella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/agnella:@/tmp/.ICE-unix/1434,unix/agnella:/tmp/.ICE-unix/1434'), ('INVOCATION_ID', 'a57e9d7dbf194a958bab7039deecf109'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EE6TV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2bc9568308.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agnella/banyu/tugas1/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[0.021120] (pubsub) JobProgress: {'identifier': 'pubsub', 'progress': 'cmake'}
+[0.021864] (pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/agnella/banyu/tugas1/src/pubsub', '-DCMAKE_INSTALL_PREFIX=/home/agnella/banyu/tugas1/install/pubsub'], 'cwd': '/home/agnella/banyu/tugas1/build/pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agnella'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agnella/banyu/tugas1/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/agnella'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/agnella/banyu/tugas1/src'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1347'), ('SYSTEMD_EXEC_PID', '1458'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1914'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/agnella/banyu/tugas1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agnella'), ('JOURNAL_STREAM', '8:27057'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agnella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/agnella:@/tmp/.ICE-unix/1434,unix/agnella:/tmp/.ICE-unix/1434'), ('INVOCATION_ID', 'a57e9d7dbf194a958bab7039deecf109'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EE6TV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2bc9568308.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agnella/banyu/tugas1/build/pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[0.072775] (pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.096968] (-) TimerEvent: {}
+[0.111952] (interfaces) StdoutLine: {'line': b'[  3%] Built target interfaces__cpp\n'}
+[0.122684] (interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_interfaces\n'}
+[0.152839] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[0.174256] (interfaces) StdoutLine: {'line': b'[ 22%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[0.178983] (interfaces) StdoutLine: {'line': b'[ 32%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.185385] (interfaces) StdoutLine: {'line': b'[ 41%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.197087] (-) TimerEvent: {}
+[0.207769] (interfaces) StdoutLine: {'line': b'[ 51%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[0.214382] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_c\n'}
+[0.221589] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.244524] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[0.271288] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[0.274860] (pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.297201] (-) TimerEvent: {}
+[0.308976] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__rosidl_generator_py\n'}
+[0.334677] (pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.338463] (pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.348434] (pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.371095] (pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.371337] (interfaces) StdoutLine: {'line': b'[ 87%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[0.372702] (interfaces) StdoutLine: {'line': b'[ 93%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.386959] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.400968] (pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.401140] (-) TimerEvent: {}
+[0.441956] (pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.443576] (pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.491674] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.492407] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[0.493556] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[0.494567] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[0.497880] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[0.499413] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[0.501246] (-) TimerEvent: {}
+[0.531294] (interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[0.542400] (interfaces) CommandEnded: {'returncode': 0}
+[0.601426] (-) TimerEvent: {}
+[0.606992] (pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.619760] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[0.636073] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agnella/banyu/tugas1/build/interfaces'], 'cwd': '/home/agnella/banyu/tugas1/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agnella'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agnella/banyu/tugas1/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/agnella'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/agnella/banyu/tugas1/src'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1347'), ('SYSTEMD_EXEC_PID', '1458'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1914'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/agnella/banyu/tugas1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agnella'), ('JOURNAL_STREAM', '8:27057'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agnella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/agnella:@/tmp/.ICE-unix/1434,unix/agnella:/tmp/.ICE-unix/1434'), ('INVOCATION_ID', 'a57e9d7dbf194a958bab7039deecf109'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EE6TV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2bc9568308.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agnella/banyu/tugas1/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[0.648972] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.649152] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[0.649215] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces\n'}
+[0.649269] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.649319] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/command.h\n'}
+[0.649371] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.649495] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.649708] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__type_support.h\n'}
+[0.649835] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__struct.h\n'}
+[0.649944] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__functions.h\n'}
+[0.650049] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__functions.c\n'}
+[0.650217] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[0.650371] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[0.650732] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[0.651034] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces\n'}
+[0.651202] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.651374] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.651507] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.651653] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__rosidl_typesupport_fastrtps_c.h\n'}
+[0.651912] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.652156] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces\n'}
+[0.652279] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.652426] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.652677] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__type_support.c\n'}
+[0.652788] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__rosidl_typesupport_introspection_c.h\n'}
+[0.652897] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.653162] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.653497] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[0.653724] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces\n'}
+[0.653836] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.653960] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/command.hpp\n'}
+[0.654058] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.654190] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__traits.hpp\n'}
+[0.655341] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__struct.hpp\n'}
+[0.655731] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__builder.hpp\n'}
+[0.656146] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces\n'}
+[0.657137] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.657402] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.657580] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.657714] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[0.657923] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.658289] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.658791] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces\n'}
+[0.658968] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.659130] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.659314] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__type_support.cpp\n'}
+[0.659441] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.659761] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.660120] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[0.660365] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[0.660498] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[0.660856] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[0.661016] (interfaces) StdoutLine: {'line': b'-- Installing: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.661319] (interfaces) StdoutLine: {'line': b'-- Installing: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.661526] (interfaces) StdoutLine: {'line': b'-- Installing: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.661860] (interfaces) StdoutLine: {'line': b'-- Installing: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.662313] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[0.662560] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[0.662675] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg\n'}
+[0.662832] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[0.662980] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_command_s.c\n'}
+[0.663177] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_command.py\n'}
+[0.663364] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[0.663528] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.663647] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.663807] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.663964] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.664088] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.664193] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.697808] (pubsub) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.701537] (-) TimerEvent: {}
+[0.704791] (interfaces) StdoutLine: {'line': b"Listing '/home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[0.704986] (interfaces) StdoutLine: {'line': b"Listing '/home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[0.710105] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.710390] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.710677] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.710954] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[0.711117] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/msg/Command.idl\n'}
+[0.711345] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/msg/Command.msg\n'}
+[0.711470] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[0.711704] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[0.711834] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[0.711917] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[0.711971] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/path.sh\n'}
+[0.712057] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[0.712162] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/local_setup.bash\n'}
+[0.712267] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/local_setup.sh\n'}
+[0.712418] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[0.712472] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[0.712685] (interfaces) StdoutLine: {'line': b'-- Installing: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/package.dsv\n'}
+[0.712745] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[0.712865] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.712967] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.713025] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.713134] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.713237] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.713320] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.713375] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.713710] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.713923] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.714100] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.714338] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.714408] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.714480] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.714535] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.714615] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.714776] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.714833] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.714891] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.714984] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.715039] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.715089] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.715223] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.715353] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.715512] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.715614] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[0.715672] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[0.715724] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/package.xml\n'}
+[0.723997] (interfaces) CommandEnded: {'returncode': 0}
+[0.739077] (pubsub) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake)\n'}
+[0.753760] (pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.801722] (-) TimerEvent: {}
+[0.809220] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[0.839614] (pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.839864] (pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.839930] (pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.840015] (pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.840852] (pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.840956] (pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.841183] (pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.842199] (pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.857711] (pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.859622] (pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/agnella/banyu/tugas1/build/pubsub\n'}
+[0.869942] (pubsub) CommandEnded: {'returncode': 0}
+[0.870448] (pubsub) JobProgress: {'identifier': 'pubsub', 'progress': 'build'}
+[0.871512] (pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agnella/banyu/tugas1/build/pubsub', '--', '-j4', '-l4'], 'cwd': '/home/agnella/banyu/tugas1/build/pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agnella'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agnella/banyu/tugas1/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/agnella'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/agnella/banyu/tugas1/src'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1347'), ('SYSTEMD_EXEC_PID', '1458'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1914'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/agnella/banyu/tugas1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agnella'), ('JOURNAL_STREAM', '8:27057'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agnella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/agnella:@/tmp/.ICE-unix/1434,unix/agnella:/tmp/.ICE-unix/1434'), ('INVOCATION_ID', 'a57e9d7dbf194a958bab7039deecf109'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EE6TV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2bc9568308.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agnella/banyu/tugas1/build/pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[0.901884] (-) TimerEvent: {}
+[0.919884] (pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o\x1b[0m\n'}
+[1.002000] (-) TimerEvent: {}
+[1.102824] (-) TimerEvent: {}
+[1.203292] (-) TimerEvent: {}
+[1.303829] (-) TimerEvent: {}
+[1.404245] (-) TimerEvent: {}
+[1.504843] (-) TimerEvent: {}
+[1.605437] (-) TimerEvent: {}
+[1.705895] (-) TimerEvent: {}
+[1.806251] (-) TimerEvent: {}
+[1.907169] (-) TimerEvent: {}
+[2.008958] (-) TimerEvent: {}
+[2.109669] (-) TimerEvent: {}
+[2.212195] (-) TimerEvent: {}
+[2.313217] (-) TimerEvent: {}
+[2.413675] (-) TimerEvent: {}
+[2.515632] (-) TimerEvent: {}
+[2.616240] (-) TimerEvent: {}
+[2.717407] (-) TimerEvent: {}
+[2.817839] (-) TimerEvent: {}
+[2.918211] (-) TimerEvent: {}
+[3.018702] (-) TimerEvent: {}
+[3.119188] (-) TimerEvent: {}
+[3.224822] (-) TimerEvent: {}
+[3.325287] (-) TimerEvent: {}
+[3.425625] (-) TimerEvent: {}
+[3.525972] (-) TimerEvent: {}
+[3.626355] (-) TimerEvent: {}
+[3.726724] (-) TimerEvent: {}
+[3.827099] (-) TimerEvent: {}
+[3.927531] (-) TimerEvent: {}
+[4.027909] (-) TimerEvent: {}
+[4.128475] (-) TimerEvent: {}
+[4.229349] (-) TimerEvent: {}
+[4.331184] (-) TimerEvent: {}
+[4.431809] (-) TimerEvent: {}
+[4.532800] (-) TimerEvent: {}
+[4.633319] (-) TimerEvent: {}
+[4.659535] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Publisher::fungsi_subscribe(const Joy&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.660843] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:78:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmin(int, interfaces::msg::Command_<std::allocator<void> >::_x_cmd_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.661032] (pubsub) StderrLine: {'line': b'   78 |         cmd.x_cmd = std::max(-250, \x1b[01;31m\x1b[Kstd::min(250, cmd.x_cmd)\x1b[m\x1b[K);\n'}
+[4.661183] (pubsub) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.662743] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[4.662912] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[4.662985] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[4.663097] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.665495] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:230:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.665647] (pubsub) StderrLine: {'line': b'  230 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b)\n'}
+[4.665714] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.665770] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:230:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.665861] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:78:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::Command_<std::allocator<void> >::_x_cmd_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[4.665964] (pubsub) StderrLine: {'line': b'   78 |         cmd.x_cmd = std::max(-250, \x1b[01;36m\x1b[Kstd::min(250, cmd.x_cmd)\x1b[m\x1b[K);\n'}
+[4.666032] (pubsub) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.666077] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[4.666133] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[4.666182] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[4.666224] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.666266] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:278:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.666324] (pubsub) StderrLine: {'line': b'  278 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b, _Compare __comp)\n'}
+[4.666372] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.666418] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:278:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.666519] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:78:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::Command_<std::allocator<void> >::_x_cmd_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[4.666579] (pubsub) StderrLine: {'line': b'   78 |         cmd.x_cmd = std::max(-250, \x1b[01;36m\x1b[Kstd::min(250, cmd.x_cmd)\x1b[m\x1b[K);\n'}
+[4.666621] (pubsub) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.666662] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:65\x1b[m\x1b[K,\n'}
+[4.666704] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.666745] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3449:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr _Tp std::min(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.666787] (pubsub) StderrLine: {'line': b' 3449 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(initializer_list<_Tp> __l)\n'}
+[4.666829] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.666900] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3449:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.666946] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:78:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.666989] (pubsub) StderrLine: {'line': b'   78 |         cmd.x_cmd = std::max(-250, \x1b[01;36m\x1b[Kstd::min(250, cmd.x_cmd)\x1b[m\x1b[K);\n'}
+[4.667030] (pubsub) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.667075] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:65\x1b[m\x1b[K,\n'}
+[4.667133] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.667194] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3455:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::min(std::initializer_list<_Tp>, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.667283] (pubsub) StderrLine: {'line': b' 3455 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(initializer_list<_Tp> __l, _Compare __comp)\n'}
+[4.667327] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.667368] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3455:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.667410] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:78:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.667452] (pubsub) StderrLine: {'line': b'   78 |         cmd.x_cmd = std::max(-250, \x1b[01;36m\x1b[Kstd::min(250, cmd.x_cmd)\x1b[m\x1b[K);\n'}
+[4.667497] (pubsub) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.667593] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:79:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmin(int, interfaces::msg::Command_<std::allocator<void> >::_y_cmd_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.667655] (pubsub) StderrLine: {'line': b'   79 |         cmd.y_cmd = std::max(-250, \x1b[01;31m\x1b[Kstd::min(250, cmd.y_cmd)\x1b[m\x1b[K);\n'}
+[4.667727] (pubsub) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.667802] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[4.667933] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[4.667975] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[4.668019] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.668078] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:230:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.668153] (pubsub) StderrLine: {'line': b'  230 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b)\n'}
+[4.668211] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.668274] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:230:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.668326] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:79:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::Command_<std::allocator<void> >::_y_cmd_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[4.668407] (pubsub) StderrLine: {'line': b'   79 |         cmd.y_cmd = std::max(-250, \x1b[01;36m\x1b[Kstd::min(250, cmd.y_cmd)\x1b[m\x1b[K);\n'}
+[4.668467] (pubsub) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.668519] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[4.668721] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[4.668820] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[4.668869] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.668944] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:278:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.669003] (pubsub) StderrLine: {'line': b'  278 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b, _Compare __comp)\n'}
+[4.669068] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.669125] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:278:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.669172] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:79:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::Command_<std::allocator<void> >::_y_cmd_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[4.669219] (pubsub) StderrLine: {'line': b'   79 |         cmd.y_cmd = std::max(-250, \x1b[01;36m\x1b[Kstd::min(250, cmd.y_cmd)\x1b[m\x1b[K);\n'}
+[4.669294] (pubsub) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.669337] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:65\x1b[m\x1b[K,\n'}
+[4.669379] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.669421] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3449:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr _Tp std::min(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.669465] (pubsub) StderrLine: {'line': b' 3449 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(initializer_list<_Tp> __l)\n'}
+[4.669507] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.669549] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3449:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.669609] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:79:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.669689] (pubsub) StderrLine: {'line': b'   79 |         cmd.y_cmd = std::max(-250, \x1b[01;36m\x1b[Kstd::min(250, cmd.y_cmd)\x1b[m\x1b[K);\n'}
+[4.669733] (pubsub) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.669775] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:65\x1b[m\x1b[K,\n'}
+[4.669817] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.669858] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3455:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::min(std::initializer_list<_Tp>, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.669920] (pubsub) StderrLine: {'line': b' 3455 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(initializer_list<_Tp> __l, _Compare __comp)\n'}
+[4.669969] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.670030] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3455:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.670074] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:79:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.670117] (pubsub) StderrLine: {'line': b'   79 |         cmd.y_cmd = std::max(-250, \x1b[01;36m\x1b[Kstd::min(250, cmd.y_cmd)\x1b[m\x1b[K);\n'}
+[4.670158] (pubsub) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.670200] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:80:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmin(int, interfaces::msg::Command_<std::allocator<void> >::_yaw_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.670243] (pubsub) StderrLine: {'line': b'   80 |         cmd.yaw = std::max(-180, \x1b[01;31m\x1b[Kstd::min(180, cmd.yaw)\x1b[m\x1b[K);\n'}
+[4.670304] (pubsub) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.670385] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[4.670433] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[4.670516] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[4.670561] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.670605] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:230:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.670650] (pubsub) StderrLine: {'line': b'  230 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b)\n'}
+[4.670693] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.670734] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:230:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.670788] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:80:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::Command_<std::allocator<void> >::_yaw_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[4.670835] (pubsub) StderrLine: {'line': b'   80 |         cmd.yaw = std::max(-180, \x1b[01;36m\x1b[Kstd::min(180, cmd.yaw)\x1b[m\x1b[K);\n'}
+[4.670935] (pubsub) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.671014] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[4.671081] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[4.671125] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[4.671202] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.671246] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:278:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.671317] (pubsub) StderrLine: {'line': b'  278 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b, _Compare __comp)\n'}
+[4.671362] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.671403] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:278:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.671453] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:80:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::Command_<std::allocator<void> >::_yaw_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[4.671499] (pubsub) StderrLine: {'line': b'   80 |         cmd.yaw = std::max(-180, \x1b[01;36m\x1b[Kstd::min(180, cmd.yaw)\x1b[m\x1b[K);\n'}
+[4.671566] (pubsub) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.671611] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:65\x1b[m\x1b[K,\n'}
+[4.671652] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.671696] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3449:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr _Tp std::min(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.671797] (pubsub) StderrLine: {'line': b' 3449 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(initializer_list<_Tp> __l)\n'}
+[4.671848] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.671890] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3449:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.671950] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:80:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.672040] (pubsub) StderrLine: {'line': b'   80 |         cmd.yaw = std::max(-180, \x1b[01;36m\x1b[Kstd::min(180, cmd.yaw)\x1b[m\x1b[K);\n'}
+[4.672083] (pubsub) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.672124] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:65\x1b[m\x1b[K,\n'}
+[4.672165] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.672207] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3455:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::min(std::initializer_list<_Tp>, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.672249] (pubsub) StderrLine: {'line': b' 3455 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(initializer_list<_Tp> __l, _Compare __comp)\n'}
+[4.672291] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.672331] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3455:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.672373] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:80:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.672430] (pubsub) StderrLine: {'line': b'   80 |         cmd.yaw = std::max(-180, \x1b[01;36m\x1b[Kstd::min(180, cmd.yaw)\x1b[m\x1b[K);\n'}
+[4.672497] (pubsub) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.672542] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:81:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmin(int, interfaces::msg::Command_<std::allocator<void> >::_depth_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.672712] (pubsub) StderrLine: {'line': b'   81 |         cmd.depth = std::max(0, \x1b[01;31m\x1b[Kstd::min(10, cmd.depth)\x1b[m\x1b[K);\n'}
+[4.672762] (pubsub) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.672806] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[4.672853] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[4.672903] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[4.673058] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.673119] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:230:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.673168] (pubsub) StderrLine: {'line': b'  230 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b)\n'}
+[4.673210] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.673251] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:230:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.673293] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:81:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::Command_<std::allocator<void> >::_depth_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[4.673341] (pubsub) StderrLine: {'line': b'   81 |         cmd.depth = std::max(0, \x1b[01;36m\x1b[Kstd::min(10, cmd.depth)\x1b[m\x1b[K);\n'}
+[4.673384] (pubsub) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.673425] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[4.673467] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[4.673508] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[4.673549] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.673590] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:278:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.673655] (pubsub) StderrLine: {'line': b'  278 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b, _Compare __comp)\n'}
+[4.673727] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.673789] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:278:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.673854] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:81:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kinterfaces::msg::Command_<std::allocator<void> >::_depth_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[4.673901] (pubsub) StderrLine: {'line': b'   81 |         cmd.depth = std::max(0, \x1b[01;36m\x1b[Kstd::min(10, cmd.depth)\x1b[m\x1b[K);\n'}
+[4.673943] (pubsub) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.673985] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:65\x1b[m\x1b[K,\n'}
+[4.674029] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.674122] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3449:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr _Tp std::min(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.674319] (pubsub) StderrLine: {'line': b' 3449 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(initializer_list<_Tp> __l)\n'}
+[4.674367] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.674408] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3449:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.674450] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:81:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.674518] (pubsub) StderrLine: {'line': b'   81 |         cmd.depth = std::max(0, \x1b[01;36m\x1b[Kstd::min(10, cmd.depth)\x1b[m\x1b[K);\n'}
+[4.674564] (pubsub) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.674609] (pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:65\x1b[m\x1b[K,\n'}
+[4.674651] (pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:2\x1b[m\x1b[K:\n'}
+[4.674692] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3455:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::min(std::initializer_list<_Tp>, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.674753] (pubsub) StderrLine: {'line': b' 3455 |     \x1b[01;36m\x1b[Kmin\x1b[m\x1b[K(initializer_list<_Tp> __l, _Compare __comp)\n'}
+[4.674829] (pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.674908] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3455:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.674953] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:81:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.675013] (pubsub) StderrLine: {'line': b'   81 |         cmd.depth = std::max(0, \x1b[01;36m\x1b[Kstd::min(10, cmd.depth)\x1b[m\x1b[K);\n'}
+[4.675082] (pubsub) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.675127] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:25:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.675171] (pubsub) StderrLine: {'line': b'   25 |     void fungsi_subscribe(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::Joy &msg\x1b[m\x1b[K)\n'}
+[4.675213] (pubsub) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.675253] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.675295] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:13:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmultiple types in one declaration\n'}
+[4.675354] (pubsub) StderrLine: {'line': b'   13 | \x1b[01;31m\x1b[Kvoid\x1b[m\x1b[K\n'}
+[4.675401] (pubsub) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.675453] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:93:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration does not declare anything [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.675536] (pubsub) StderrLine: {'line': b'   93 | }\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[4.675581] (pubsub) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.734296] (-) TimerEvent: {}
+[4.834712] (-) TimerEvent: {}
+[4.935657] (-) TimerEvent: {}
+[5.037701] (-) TimerEvent: {}
+[5.138182] (-) TimerEvent: {}
+[5.238725] (-) TimerEvent: {}
+[5.339726] (-) TimerEvent: {}
+[5.440213] (-) TimerEvent: {}
+[5.540725] (-) TimerEvent: {}
+[5.641905] (-) TimerEvent: {}
+[5.745403] (-) TimerEvent: {}
+[5.845874] (-) TimerEvent: {}
+[5.948859] (-) TimerEvent: {}
+[6.051956] (-) TimerEvent: {}
+[6.155127] (-) TimerEvent: {}
+[6.255693] (-) TimerEvent: {}
+[6.357174] (-) TimerEvent: {}
+[6.461857] (-) TimerEvent: {}
+[6.562444] (-) TimerEvent: {}
+[6.664056] (-) TimerEvent: {}
+[6.765759] (-) TimerEvent: {}
+[6.867309] (-) TimerEvent: {}
+[6.967721] (-) TimerEvent: {}
+[7.070026] (-) TimerEvent: {}
+[7.171920] (-) TimerEvent: {}
+[7.272292] (-) TimerEvent: {}
+[7.373900] (-) TimerEvent: {}
+[7.478819] (-) TimerEvent: {}
+[7.579245] (-) TimerEvent: {}
+[7.680336] (-) TimerEvent: {}
+[7.782505] (-) TimerEvent: {}
+[7.883508] (-) TimerEvent: {}
+[7.984611] (-) TimerEvent: {}
+[8.088108] (-) TimerEvent: {}
+[8.190621] (-) TimerEvent: {}
+[8.256015] (pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/node.dir/build.make:76: CMakeFiles/node.dir/src/node.cpp.o] Error 1\n'}
+[8.257657] (pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node.dir/all] Error 2\n'}
+[8.257827] (pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.268541] (pubsub) CommandEnded: {'returncode': 2}
+[8.290733] (-) TimerEvent: {}
+[8.321411] (pubsub) JobEnded: {'identifier': 'pubsub', 'rc': 2}
+[8.332963] (-) EventReactorShutdown: {}

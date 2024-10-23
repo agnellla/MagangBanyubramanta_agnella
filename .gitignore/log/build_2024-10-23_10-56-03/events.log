@@ -1,0 +1,272 @@
+[0.000000] (-) TimerEvent: {}
+[0.000245] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000299] (pubsub) JobQueued: {'identifier': 'pubsub', 'dependencies': OrderedDict()}
+[0.000892] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.009681] (pubsub) JobStarted: {'identifier': 'pubsub'}
+[0.025636] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.027025] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.027079] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agnella/banyu/tugas1/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/agnella/banyu/tugas1/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agnella'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agnella/banyu/tugas1/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/agnella'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1324'), ('SYSTEMD_EXEC_PID', '1436'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1894'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/agnella/banyu/tugas1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agnella'), ('JOURNAL_STREAM', '8:24454'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agnella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/agnella:@/tmp/.ICE-unix/1410,unix/agnella:/tmp/.ICE-unix/1410'), ('INVOCATION_ID', 'b63ed7df9bca489a89b9ac383288371b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MBJSV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2bc9568308.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agnella/banyu/tugas1/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[0.031201] (pubsub) JobProgress: {'identifier': 'pubsub', 'progress': 'cmake'}
+[0.034228] (pubsub) JobProgress: {'identifier': 'pubsub', 'progress': 'build'}
+[0.034302] (pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agnella/banyu/tugas1/build/pubsub', '--', '-j4', '-l4'], 'cwd': '/home/agnella/banyu/tugas1/build/pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agnella'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agnella/banyu/tugas1/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/agnella'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1324'), ('SYSTEMD_EXEC_PID', '1436'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1894'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/agnella/banyu/tugas1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agnella'), ('JOURNAL_STREAM', '8:24454'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agnella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/agnella:@/tmp/.ICE-unix/1410,unix/agnella:/tmp/.ICE-unix/1410'), ('INVOCATION_ID', 'b63ed7df9bca489a89b9ac383288371b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MBJSV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2bc9568308.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agnella/banyu/tugas1/build/pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[0.082846] (pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target node\x1b[0m\n'}
+[0.095210] (interfaces) StdoutLine: {'line': b'[  3%] Built target interfaces__cpp\n'}
+[0.097283] (interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_interfaces\n'}
+[0.099679] (-) TimerEvent: {}
+[0.103727] (pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o\x1b[0m\n'}
+[0.104893] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[0.129292] (interfaces) StdoutLine: {'line': b'[ 29%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.129492] (interfaces) StdoutLine: {'line': b'[ 32%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[0.139783] (interfaces) StdoutLine: {'line': b'[ 41%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.156664] (interfaces) StdoutLine: {'line': b'[ 51%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[0.157380] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.174260] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_c\n'}
+[0.190817] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[0.199793] (-) TimerEvent: {}
+[0.214452] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[0.238830] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__rosidl_generator_py\n'}
+[0.264951] (interfaces) StdoutLine: {'line': b'[ 87%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.272278] (interfaces) StdoutLine: {'line': b'[ 93%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.283914] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[0.299904] (-) TimerEvent: {}
+[0.379661] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.380357] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[0.380673] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[0.381045] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[0.383973] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[0.384826] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[0.400594] (-) TimerEvent: {}
+[0.427980] (interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[0.442608] (interfaces) CommandEnded: {'returncode': 0}
+[0.498610] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[0.502440] (-) TimerEvent: {}
+[0.513984] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agnella/banyu/tugas1/build/interfaces'], 'cwd': '/home/agnella/banyu/tugas1/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agnella'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agnella/banyu/tugas1/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/agnella'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1324'), ('SYSTEMD_EXEC_PID', '1436'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1894'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/agnella/banyu/tugas1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agnella'), ('JOURNAL_STREAM', '8:24454'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agnella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/agnella:@/tmp/.ICE-unix/1410,unix/agnella:/tmp/.ICE-unix/1410'), ('INVOCATION_ID', 'b63ed7df9bca489a89b9ac383288371b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MBJSV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2bc9568308.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agnella/banyu/tugas1/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[0.529264] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.529569] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[0.529947] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces\n'}
+[0.530234] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.530473] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/command.h\n'}
+[0.530655] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.530860] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.531065] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__type_support.h\n'}
+[0.531275] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__struct.h\n'}
+[0.531696] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__functions.h\n'}
+[0.531943] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__functions.c\n'}
+[0.532220] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[0.532475] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[0.532923] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[0.533258] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces\n'}
+[0.533426] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.533612] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.536544] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.536897] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__rosidl_typesupport_fastrtps_c.h\n'}
+[0.537272] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.537629] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces\n'}
+[0.537814] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.538009] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.538204] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__type_support.c\n'}
+[0.538374] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__rosidl_typesupport_introspection_c.h\n'}
+[0.538579] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.538937] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.540917] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[0.545166] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces\n'}
+[0.545469] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.545818] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/command.hpp\n'}
+[0.546082] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.546577] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__traits.hpp\n'}
+[0.546748] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__struct.hpp\n'}
+[0.546875] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__builder.hpp\n'}
+[0.547061] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces\n'}
+[0.547240] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.547527] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.547826] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.548013] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[0.548275] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.548589] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.548931] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces\n'}
+[0.549094] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg\n'}
+[0.549259] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[0.549464] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__type_support.cpp\n'}
+[0.549667] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/include/interfaces/interfaces/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.549973] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.550430] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[0.550766] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[0.550970] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[0.551182] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[0.551502] (interfaces) StdoutLine: {'line': b'-- Installing: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.552029] (interfaces) StdoutLine: {'line': b'-- Installing: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.552371] (interfaces) StdoutLine: {'line': b'-- Installing: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.552674] (interfaces) StdoutLine: {'line': b'-- Installing: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.553393] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[0.553676] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[0.553836] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg\n'}
+[0.554046] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[0.554202] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_command_s.c\n'}
+[0.554343] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_command.py\n'}
+[0.554539] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[0.554729] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.554865] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.554990] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.555176] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.555363] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.555680] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.602690] (-) TimerEvent: {}
+[0.613199] (interfaces) StdoutLine: {'line': b"Listing '/home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[0.613461] (interfaces) StdoutLine: {'line': b"Listing '/home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[0.622133] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.623744] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.624949] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.626580] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[0.627867] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/msg/Command.idl\n'}
+[0.628254] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/msg/Command.msg\n'}
+[0.628490] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[0.628699] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[0.628933] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[0.629109] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[0.629323] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/path.sh\n'}
+[0.629652] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[0.633965] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/local_setup.bash\n'}
+[0.634293] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/local_setup.sh\n'}
+[0.634509] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[0.634703] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[0.634866] (interfaces) StdoutLine: {'line': b'-- Installing: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/package.dsv\n'}
+[0.635282] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[0.635830] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.636105] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.636412] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.636604] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.636902] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.637115] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.637329] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.637483] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.637709] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.638053] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.638228] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.638507] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.638677] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.638874] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.639063] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.639587] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.639771] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.639930] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.640087] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.640236] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.640397] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.640575] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.640722] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.640868] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.641012] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[0.641130] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[0.641296] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/interfaces/share/interfaces/package.xml\n'}
+[0.651948] (interfaces) CommandEnded: {'returncode': 0}
+[0.702821] (-) TimerEvent: {}
+[0.761162] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[0.803599] (-) TimerEvent: {}
+[0.904529] (-) TimerEvent: {}
+[1.005016] (-) TimerEvent: {}
+[1.105445] (-) TimerEvent: {}
+[1.205775] (-) TimerEvent: {}
+[1.306755] (-) TimerEvent: {}
+[1.408052] (-) TimerEvent: {}
+[1.508579] (-) TimerEvent: {}
+[1.608954] (-) TimerEvent: {}
+[1.709439] (-) TimerEvent: {}
+[1.810170] (-) TimerEvent: {}
+[1.910582] (-) TimerEvent: {}
+[2.011600] (-) TimerEvent: {}
+[2.111898] (-) TimerEvent: {}
+[2.212254] (-) TimerEvent: {}
+[2.312583] (-) TimerEvent: {}
+[2.412911] (-) TimerEvent: {}
+[2.513209] (-) TimerEvent: {}
+[2.613504] (-) TimerEvent: {}
+[2.652681] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kfloat Publisher::fungsi_subscribe(const Joy&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.653091] (pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:48:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.653184] (pubsub) StderrLine: {'line': b'   48 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[2.653233] (pubsub) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.713640] (-) TimerEvent: {}
+[2.813967] (-) TimerEvent: {}
+[2.914265] (-) TimerEvent: {}
+[3.015143] (-) TimerEvent: {}
+[3.115511] (-) TimerEvent: {}
+[3.216274] (-) TimerEvent: {}
+[3.316644] (-) TimerEvent: {}
+[3.416971] (-) TimerEvent: {}
+[3.517432] (-) TimerEvent: {}
+[3.618240] (-) TimerEvent: {}
+[3.720422] (-) TimerEvent: {}
+[3.820788] (-) TimerEvent: {}
+[3.921356] (-) TimerEvent: {}
+[4.023113] (-) TimerEvent: {}
+[4.124055] (-) TimerEvent: {}
+[4.225494] (-) TimerEvent: {}
+[4.326404] (-) TimerEvent: {}
+[4.426838] (-) TimerEvent: {}
+[4.528057] (-) TimerEvent: {}
+[4.628407] (-) TimerEvent: {}
+[4.728735] (-) TimerEvent: {}
+[4.829024] (-) TimerEvent: {}
+[4.929360] (-) TimerEvent: {}
+[5.034161] (-) TimerEvent: {}
+[5.137399] (-) TimerEvent: {}
+[5.239207] (-) TimerEvent: {}
+[5.339628] (-) TimerEvent: {}
+[5.441751] (-) TimerEvent: {}
+[5.542181] (-) TimerEvent: {}
+[5.642587] (-) TimerEvent: {}
+[5.744813] (-) TimerEvent: {}
+[5.846123] (-) TimerEvent: {}
+[5.947938] (-) TimerEvent: {}
+[6.049592] (-) TimerEvent: {}
+[6.150468] (-) TimerEvent: {}
+[6.253688] (-) TimerEvent: {}
+[6.354225] (-) TimerEvent: {}
+[6.455511] (-) TimerEvent: {}
+[6.556322] (-) TimerEvent: {}
+[6.656649] (-) TimerEvent: {}
+[6.759671] (-) TimerEvent: {}
+[6.861102] (-) TimerEvent: {}
+[6.961382] (-) TimerEvent: {}
+[7.063067] (-) TimerEvent: {}
+[7.163422] (-) TimerEvent: {}
+[7.263809] (-) TimerEvent: {}
+[7.364230] (-) TimerEvent: {}
+[7.464732] (-) TimerEvent: {}
+[7.566506] (-) TimerEvent: {}
+[7.666816] (-) TimerEvent: {}
+[7.767115] (-) TimerEvent: {}
+[7.867656] (-) TimerEvent: {}
+[7.969836] (-) TimerEvent: {}
+[8.070171] (-) TimerEvent: {}
+[8.173007] (-) TimerEvent: {}
+[8.239579] (pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable node\x1b[0m\n'}
+[8.273151] (-) TimerEvent: {}
+[8.378050] (-) TimerEvent: {}
+[8.478408] (-) TimerEvent: {}
+[8.578936] (-) TimerEvent: {}
+[8.676360] (pubsub) StdoutLine: {'line': b'[100%] Built target node\n'}
+[8.679031] (-) TimerEvent: {}
+[8.688444] (pubsub) CommandEnded: {'returncode': 0}
+[8.712381] (pubsub) JobProgress: {'identifier': 'pubsub', 'progress': 'install'}
+[8.713966] (pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agnella/banyu/tugas1/build/pubsub'], 'cwd': '/home/agnella/banyu/tugas1/build/pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agnella'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agnella/banyu/tugas1/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/agnella'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1324'), ('SYSTEMD_EXEC_PID', '1436'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1894'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/agnella/banyu/tugas1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agnella'), ('JOURNAL_STREAM', '8:24454'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agnella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/agnella:@/tmp/.ICE-unix/1410,unix/agnella:/tmp/.ICE-unix/1410'), ('INVOCATION_ID', 'b63ed7df9bca489a89b9ac383288371b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MBJSV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2bc9568308.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agnella/banyu/tugas1/build/pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agnella/banyu/tugas1/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/agnella/banyu/tugas1/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[8.719218] (pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.719631] (pubsub) StdoutLine: {'line': b'-- Installing: /home/agnella/banyu/tugas1/install/pubsub/lib/pubsub/node\n'}
+[8.726992] (pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/agnella/banyu/tugas1/install/pubsub/lib/pubsub/node" to ""\n'}
+[8.727185] (pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/ament_index/resource_index/package_run_dependencies/pubsub\n'}
+[8.727532] (pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/ament_index/resource_index/parent_prefix_path/pubsub\n'}
+[8.727614] (pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/ament_prefix_path.sh\n'}
+[8.727676] (pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/ament_prefix_path.dsv\n'}
+[8.727808] (pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/path.sh\n'}
+[8.727956] (pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/path.dsv\n'}
+[8.728223] (pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.bash\n'}
+[8.728291] (pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.sh\n'}
+[8.728407] (pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.zsh\n'}
+[8.728644] (pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.dsv\n'}
+[8.728728] (pubsub) StdoutLine: {'line': b'-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/package.dsv\n'}
+[8.728865] (pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/ament_index/resource_index/packages/pubsub\n'}
+[8.728916] (pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/cmake/pubsubConfig.cmake\n'}
+[8.728965] (pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/cmake/pubsubConfig-version.cmake\n'}
+[8.729009] (pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/package.xml\n'}
+[8.730822] (pubsub) CommandEnded: {'returncode': 0}
+[8.763867] (pubsub) JobEnded: {'identifier': 'pubsub', 'rc': 0}
+[8.764563] (-) EventReactorShutdown: {}

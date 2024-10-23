@@ -1,0 +1,23 @@
+[0.023s] Invoking command in '/home/agnella/banyu/tugas1/build/pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agnella/banyu/tugas1/build/pubsub -- -j4 -l4
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target node[0m
+[0.110s] [100%] Built target node
+[0.130s] Invoked command in '/home/agnella/banyu/tugas1/build/pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agnella/banyu/tugas1/build/pubsub -- -j4 -l4
+[0.173s] Invoking command in '/home/agnella/banyu/tugas1/build/pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/agnella/banyu/tugas1/build/pubsub
+[0.179s] -- Install configuration: ""
+[0.180s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/lib/pubsub/node
+[0.181s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/ament_index/resource_index/package_run_dependencies/pubsub
+[0.181s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/ament_index/resource_index/parent_prefix_path/pubsub
+[0.181s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/ament_prefix_path.sh
+[0.181s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/ament_prefix_path.dsv
+[0.181s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/path.sh
+[0.182s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/path.dsv
+[0.182s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.bash
+[0.182s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.sh
+[0.182s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.zsh
+[0.183s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.dsv
+[0.183s] -- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/package.dsv
+[0.183s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/ament_index/resource_index/packages/pubsub
+[0.183s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/cmake/pubsubConfig.cmake
+[0.185s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/cmake/pubsubConfig-version.cmake
+[0.186s] -- Up-to-date: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/package.xml
+[0.188s] Invoked command in '/home/agnella/banyu/tugas1/build/pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/agnella/banyu/tugas1/build/pubsub

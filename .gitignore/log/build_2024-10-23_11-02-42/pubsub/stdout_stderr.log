@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o[0m
+[01m[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:[m[K In member function ‘[01m[Kfloat Publisher::fungsi_subscribe(const Joy&)[m[K’:
+[01m[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:28:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Joy[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Joy_<std::allocator<void> >[m[K’}
+   28 |         float stick_x_left=msg[01;31m[K->[m[Kaxes[0];
+      |                               [01;31m[K^~[m[K
+[01m[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:29:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Joy[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Joy_<std::allocator<void> >[m[K’}
+   29 |         float stick_y_left=msg[01;31m[K->[m[Kaxes[1];
+      |                               [01;31m[K^~[m[K
+[01m[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:30:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Joy[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Joy_<std::allocator<void> >[m[K’}
+   30 |         float stick_x_right=msg[01;31m[K->[m[Kaxes[3];
+      |                                [01;31m[K^~[m[K
+[01m[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:34:21:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Joy[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Joy_<std::allocator<void> >[m[K’}
+   34 |         float lt=msg[01;31m[K->[m[Kaxes[2];
+      |                     [01;31m[K^~[m[K
+[01m[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:48:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   48 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/node.dir/build.make:76: CMakeFiles/node.dir/src/node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

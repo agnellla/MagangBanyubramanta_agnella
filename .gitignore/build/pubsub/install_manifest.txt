@@ -1,0 +1,16 @@
+/home/agnella/banyu/tugas1/install/pubsub/lib/pubsub/node
+/home/agnella/banyu/tugas1/install/pubsub/share/ament_index/resource_index/package_run_dependencies/pubsub
+/home/agnella/banyu/tugas1/install/pubsub/share/ament_index/resource_index/parent_prefix_path/pubsub
+/home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/ament_prefix_path.sh
+/home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/ament_prefix_path.dsv
+/home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/path.sh
+/home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/path.dsv
+/home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.bash
+/home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.sh
+/home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.zsh
+/home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.dsv
+/home/agnella/banyu/tugas1/install/pubsub/share/pubsub/package.dsv
+/home/agnella/banyu/tugas1/install/pubsub/share/ament_index/resource_index/packages/pubsub
+/home/agnella/banyu/tugas1/install/pubsub/share/pubsub/cmake/pubsubConfig.cmake
+/home/agnella/banyu/tugas1/install/pubsub/share/pubsub/cmake/pubsubConfig-version.cmake
+/home/agnella/banyu/tugas1/install/pubsub/share/pubsub/package.xml

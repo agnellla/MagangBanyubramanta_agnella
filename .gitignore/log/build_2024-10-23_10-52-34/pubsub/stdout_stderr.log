@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o[0m
+[01m[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:[m[K In member function ‘[01m[Kfloat Publisher::fungsi_subscribe(const Joy&)[m[K’:
+[01m[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:31:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstick_y_right[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   31 |         float [01;35m[Kstick_y_right[m[K=msg.axes[4];
+      |               [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:32:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrosskey_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   32 |         float [01;35m[Kcrosskey_x[m[K=msg.axes[6];
+      |               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:33:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrosskey_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   33 |         float [01;35m[Kcrosskey_y[m[K=msg.axes[7];
+      |               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:35:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   35 |         float [01;35m[Krt[m[K=msg.axes[5];
+      |               [01;35m[K^~[m[K
+[01m[K/home/agnella/banyu/tugas1/src/pubsub/src/node.cpp:48:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   48 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable node[0m
+[100%] Built target node
+-- Install configuration: ""
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/lib/pubsub/node
+-- Set runtime path of "/home/agnella/banyu/tugas1/install/pubsub/lib/pubsub/node" to ""
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/ament_index/resource_index/package_run_dependencies/pubsub
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/ament_index/resource_index/parent_prefix_path/pubsub
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/ament_prefix_path.sh
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/ament_prefix_path.dsv
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/path.sh
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/environment/path.dsv
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.bash
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.sh
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.zsh
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/local_setup.dsv
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/package.dsv
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/ament_index/resource_index/packages/pubsub
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/cmake/pubsubConfig.cmake
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/cmake/pubsubConfig-version.cmake
+-- Installing: /home/agnella/banyu/tugas1/install/pubsub/share/pubsub/package.xml
