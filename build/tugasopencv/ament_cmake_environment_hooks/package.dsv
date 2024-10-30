@@ -1,0 +1,4 @@
+source;share/tugasopencv/local_setup.bash
+source;share/tugasopencv/local_setup.dsv
+source;share/tugasopencv/local_setup.sh
+source;share/tugasopencv/local_setup.zsh

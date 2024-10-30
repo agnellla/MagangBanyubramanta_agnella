@@ -1,0 +1,16 @@
+/home/agnella/banyu/opencv/install/tugasopencv/lib/tugasopencv/tugasopencv
+/home/agnella/banyu/opencv/install/tugasopencv/share/ament_index/resource_index/package_run_dependencies/tugasopencv
+/home/agnella/banyu/opencv/install/tugasopencv/share/ament_index/resource_index/parent_prefix_path/tugasopencv
+/home/agnella/banyu/opencv/install/tugasopencv/share/tugasopencv/environment/ament_prefix_path.sh
+/home/agnella/banyu/opencv/install/tugasopencv/share/tugasopencv/environment/ament_prefix_path.dsv
+/home/agnella/banyu/opencv/install/tugasopencv/share/tugasopencv/environment/path.sh
+/home/agnella/banyu/opencv/install/tugasopencv/share/tugasopencv/environment/path.dsv
+/home/agnella/banyu/opencv/install/tugasopencv/share/tugasopencv/local_setup.bash
+/home/agnella/banyu/opencv/install/tugasopencv/share/tugasopencv/local_setup.sh
+/home/agnella/banyu/opencv/install/tugasopencv/share/tugasopencv/local_setup.zsh
+/home/agnella/banyu/opencv/install/tugasopencv/share/tugasopencv/local_setup.dsv
+/home/agnella/banyu/opencv/install/tugasopencv/share/tugasopencv/package.dsv
+/home/agnella/banyu/opencv/install/tugasopencv/share/ament_index/resource_index/packages/tugasopencv
+/home/agnella/banyu/opencv/install/tugasopencv/share/tugasopencv/cmake/tugasopencvConfig.cmake
+/home/agnella/banyu/opencv/install/tugasopencv/share/tugasopencv/cmake/tugasopencvConfig-version.cmake
+/home/agnella/banyu/opencv/install/tugasopencv/share/tugasopencv/package.xml

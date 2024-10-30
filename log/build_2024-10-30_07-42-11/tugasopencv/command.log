@@ -1,0 +1,6 @@
+Invoking command in '/home/agnella/banyu/opencv/build/tugasopencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agnella/banyu/opencv/src/tugasopencv -DCMAKE_INSTALL_PREFIX=/home/agnella/banyu/opencv/install/tugasopencv
+Invoked command in '/home/agnella/banyu/opencv/build/tugasopencv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agnella/banyu/opencv/src/tugasopencv -DCMAKE_INSTALL_PREFIX=/home/agnella/banyu/opencv/install/tugasopencv
+Invoking command in '/home/agnella/banyu/opencv/build/tugasopencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agnella/banyu/opencv/build/tugasopencv -- -j4 -l4
+Invoked command in '/home/agnella/banyu/opencv/build/tugasopencv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agnella/banyu/opencv/build/tugasopencv -- -j4 -l4
+Invoking command in '/home/agnella/banyu/opencv/build/tugasopencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agnella/banyu/opencv/build/tugasopencv
+Invoked command in '/home/agnella/banyu/opencv/build/tugasopencv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agnella/banyu/opencv/build/tugasopencv

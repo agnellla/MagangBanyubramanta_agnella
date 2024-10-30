@@ -1,0 +1,10 @@
+/home/agnella/banyu/opencv/build/tugasopencv/CMakeFiles/uninstall.dir
+/home/agnella/banyu/opencv/build/tugasopencv/CMakeFiles/tugasopencv_uninstall.dir
+/home/agnella/banyu/opencv/build/tugasopencv/CMakeFiles/tugasopencv.dir
+/home/agnella/banyu/opencv/build/tugasopencv/CMakeFiles/test.dir
+/home/agnella/banyu/opencv/build/tugasopencv/CMakeFiles/edit_cache.dir
+/home/agnella/banyu/opencv/build/tugasopencv/CMakeFiles/rebuild_cache.dir
+/home/agnella/banyu/opencv/build/tugasopencv/CMakeFiles/list_install_components.dir
+/home/agnella/banyu/opencv/build/tugasopencv/CMakeFiles/install.dir
+/home/agnella/banyu/opencv/build/tugasopencv/CMakeFiles/install/local.dir
+/home/agnella/banyu/opencv/build/tugasopencv/CMakeFiles/install/strip.dir

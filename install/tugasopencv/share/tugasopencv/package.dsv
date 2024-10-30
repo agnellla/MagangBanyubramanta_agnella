@@ -1,0 +1,8 @@
+source;share/tugasopencv/hook/cmake_prefix_path.ps1
+source;share/tugasopencv/hook/cmake_prefix_path.dsv
+source;share/tugasopencv/hook/cmake_prefix_path.sh
+source;share/tugasopencv/local_setup.bash
+source;share/tugasopencv/local_setup.dsv
+source;share/tugasopencv/local_setup.ps1
+source;share/tugasopencv/local_setup.sh
+source;share/tugasopencv/local_setup.zsh
